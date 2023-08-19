@@ -1,0 +1,51 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+.bg {
+  background-color: #07080c;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mainHeading,
+.heading {
+  color: #ffffff;
+}
+.img {
+  height: 180px;
+  width: 350px;
+}
+.para {
+  color: #cbd5e1;
+}
+.btn1 {
+  background-color: #0b69ff;
+  border-color: transparent;
+  border-radius: 8px;
+  padding: 8px 16px;
+  color: white;
+  margin: 4px;
+  cursor: pointer;
+}
+.btn2 {
+  background-color: transparent;
+  border: 2px solid #94a3b8;
+  border-radius: 8px;
+  padding: 8px 16px;
+  color: #94a3b8;
+  margin: 4px;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .mainHeading {
+    font-size: 48px;
+  }
+  .img {
+    width: 450px;
+  }
+}
